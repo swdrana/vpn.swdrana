@@ -1,8 +1,4 @@
-import Layout from "@/components/Layout/Layout";
 import Hero from "@/components/Hero";
-import Feature from "@/components/Feature";
-import Pricing from "@/components/Pricing";
-import Header from "@/components/Layout/Header";
 export const metadata = {
   title: "VPN Service - আগে ব্যবহার করুন, পরে পেমেন্ট করুন!",
   description:
@@ -50,7 +46,7 @@ export const metadata = {
 export default function Home() {
   return (
     <>
-        <Hero />
+      <Hero />
       {/* <Layout>
         <Feature />
         <Pricing />

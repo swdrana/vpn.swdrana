@@ -50,7 +50,7 @@ const Testimoni = ({
 }) => {
   const settings = {
     dots: true,
-    customPaging: function (i) {
+    customPaging: function () {
       return (
         <a className="">
           <span className="mx-2 rounded-l-full rounded-r-full h-4 w-4 block cursor-pointer transition-all "></span>

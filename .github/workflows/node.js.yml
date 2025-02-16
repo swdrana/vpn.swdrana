@@ -37,4 +37,4 @@ jobs:
       run: cd /home/client/vpn.swdrana/_work/vpn.swdrana/vpn.swdrana/
      
     # কারণ rafi নামে App টির ID: 0  এখানে আমার মনে হয় নাম লিখলেও হবে যেমনঃ - run: pm2 restart rafi
-    - run: pm2 restart 0
+    - run: pm2 restart vpn.swdrana
