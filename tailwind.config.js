@@ -41,7 +41,18 @@ module.exports = {
         500: "#DDDDDD",
       },
     },
-    extend: {},
+    extend: {
+      keyframes: {
+        marquee: {
+          "0%": { transform: "translateX(0%)" },
+          "50%": { transform: "translateX(20px)" },
+          "100%": { transform: "translateX(0%)" },
+        },
+      },
+      animation: {
+        marquee: "marquee 2s infinite ease-in-out",
+      },
+    },
   },
   variants: {
     extend: {
