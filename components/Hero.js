@@ -64,6 +64,7 @@ const Hero = ({
                 layout="responsive"
                 className="animate-marquee"
               />
+              
             </motion.div>
           </div>
         </motion.div>

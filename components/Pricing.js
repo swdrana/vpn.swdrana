@@ -58,7 +58,7 @@ const Pricing = () => {
                 </p>
                 <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
                   <li className="relative check custom-list my-2">
-                    Unlimited Bandwitch
+                    1GB Bandwitch
                   </li>
                   <li className="relative check custom-list my-2">
                     Encrypted Connection
@@ -102,7 +102,7 @@ const Pricing = () => {
               </p>
               <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
                 <li className="relative check custom-list my-2">
-                  Unlimited Bandwitch
+                  150GB Bandwitch
                 </li>
                 <li className="relative check custom-list my-2">
                   Encrypted Connection
@@ -116,10 +116,13 @@ const Pricing = () => {
                 <li className="relative check custom-list my-2">
                   Connect Anyware{" "}
                 </li>
+                <li className="relative check custom-list my-2">
+                  3 Devices at the same time{" "}
+                </li>
               </ul>
               <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
                 <p className="text-2xl text-black-600 text-center mb-4 ">
-                  $9 <span className="text-black-500">/ mo</span>
+                ¥15 <span className="text-black-500">/ mo</span>
                 </p>
                 <ButtonOutline>Select</ButtonOutline>
               </div>
@@ -149,7 +152,7 @@ const Pricing = () => {
               </p>
               <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
                 <li className="relative check custom-list my-2">
-                  Unlimited Bandwitch
+                  600GB+ Bandwidth
                 </li>
                 <li className="relative check custom-list my-2">
                   Encrypted Connection
@@ -166,10 +169,13 @@ const Pricing = () => {
                 <li className="relative check custom-list my-2">
                   Get New Features{" "}
                 </li>
+                <li className="relative check custom-list my-2">
+                  3 Devices at the same time{" "}
+                </li>
               </ul>
               <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
                 <p className="text-2xl text-black-600 text-center mb-4 ">
-                  $12 <span className="text-black-500">/ mo</span>
+                ¥150 <span className="text-black-500">/ mo</span>
                 </p>
 
                 <ButtonOutline>Select</ButtonOutline>
@@ -178,6 +184,15 @@ const Pricing = () => {
             </ScrollAnimationWrapper>
           </div>
         </div>
+        <Image
+                        src="/assets/wechat.jpg"
+                        alt="VPN Illustration"
+                        quality={100}
+                        width={612}
+                        height={383}
+                        layout="responsive"
+                        className="animate-marquee"
+                      />
         <div className="flex flex-col w-full my-16">
           <ScrollAnimationWrapper>
             <motion.h3
@@ -186,7 +201,7 @@ const Pricing = () => {
               Huge Global Network of Fast VPN{" "}
             </motion.h3>
             <motion.p className="leading-normal  mx-auto my-2 w-10/12 sm:w-7/12 lg:w-6/12" variants={scrollAnimation}>
-              See LaslesVPN everywhere to make it easier for you when you move
+              See OpenVPN everywhere to make it easier for you when you move
               locations.
             </motion.p>
           </ScrollAnimationWrapper>
