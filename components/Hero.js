@@ -4,6 +4,7 @@ import React, { useMemo } from "react";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 import ButtonPrimary from "./misc/ButtonPrimary";
+import Link from "next/link";
 
 const Hero = ({
   listUser = [
@@ -42,7 +43,9 @@ const Hero = ({
               Provide a network for all your needs with ease and fun using
               LaslesVPN discover interesting features from us.
             </p>
-            <ButtonPrimary>Get Started</ButtonPrimary>
+            <ButtonPrimary>
+              <Link href="#wechat">Get Started</Link>
+            </ButtonPrimary>
           </div>
           <div className="flex w-full">
             <motion.div className="h-full w-full" variants={scrollAnimation}>
@@ -64,7 +67,6 @@ const Hero = ({
                 layout="responsive"
                 className="animate-marquee"
               />
-              
             </motion.div>
           </div>
         </motion.div>
