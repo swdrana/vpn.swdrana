@@ -1,29 +1,28 @@
 {
-  "name": "vpn.swdrana",
+  "name": "next-landing-vpn",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack --port 5001",
+    "dev": "next dev",
     "build": "next build",
-    "start": "next start --port 5001",
-    "lint": "next lint"
+    "start": "next start",
+    "export": "next build && next export"
   },
   "dependencies": {
-    "next": "15.1.7",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "react-scroll": "^1.9.2",
-    "react-slick": "^0.30.3"
+    "@fullhuman/postcss-purgecss": "^3.0.0",
+    "autoprefixer": "^10.4.12",
+    "framer-motion": "6.0.0",
+    "next": "^12.3.1",
+    "postcss": "^8.4.17",
+    "postcss-import": "^13.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scroll": "^1.8.1",
+    "react-slick": "^0.27.13",
+    "slick-carousel": "^1.8.1",
+    "tailwindcss": "^3.1.8"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "eslint": "^9",
-    "eslint-config-next": "15.1.7",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
-    "typescript": "^5"
+    "babel-plugin-inline-react-svg": "^1.1.2"
   }
 }
