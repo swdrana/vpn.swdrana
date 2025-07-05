@@ -108,7 +108,7 @@ const Pricing = () => {
                     1 Month
                   </li>
                   <li className="relative check custom-list my-2">
-                    150GB Bandwidth
+                    80GB Bandwidth
                   </li>
                   <li className="relative check custom-list my-2">
                     Encrypted Connection
@@ -128,7 +128,7 @@ const Pricing = () => {
                 </ul>
                 <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
                   <p className="text-2xl text-black-600 text-center mb-4 ">
-                    ¥15 <span className="text-black-500">/ mo</span>
+                    ¥10 <span className="text-black-500">/ mo</span>
                   </p>
                   <ButtonOutline><Link href="#wechat">Select</Link></ButtonOutline>
                 </div>
@@ -158,10 +158,13 @@ const Pricing = () => {
                 </p>
                 <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
                   <li className="relative check custom-list my-2">
-                    1 Year
+                    1 Month
                   </li>
                   <li className="relative check custom-list my-2">
-                    600GB+ Bandwidth
+                    200GB Bandwidth
+                  </li>
+                  <li className="relative check custom-list my-2">
+                    Location: USA, India, Bangladesh
                   </li>
                   <li className="relative check custom-list my-2">
                     Encrypted Connection
@@ -179,12 +182,12 @@ const Pricing = () => {
                     Get New Features{" "}
                   </li>
                   <li className="relative check custom-list my-2">
-                    3 Devices at the same time{" "}
+                    5 Devices at the same time{" "}
                   </li>
                 </ul>
                 <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
                   <p className="text-2xl text-black-600 text-center mb-4 ">
-                    ¥150 <span className="text-black-500">/ mo</span>
+                    ¥15 <span className="text-black-500">/ mo</span>
                   </p>
 
                   <ButtonOutline>
