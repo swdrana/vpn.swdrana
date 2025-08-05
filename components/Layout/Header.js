@@ -3,9 +3,9 @@ import { useEffect, useState } from "react";
 // Import react scroll
 import { Link as LinkScroll } from "react-scroll";
 import ButtonOutline from "../misc/ButtonOutline.";
-// import LogoVPN from "../../public/assets/Logo.svg";
+// import LogoVPN from "../../public/assets/Losvg";
 import Image from "next/image";
-import LogoVPN from "../../public/assets/OpenVPN_logo.png";
+import LogoVPN from "../../public/assets/OpenVPN_lopng";
 
 const Header = () => {
   const [activeLink, setActiveLink] = useState(null);
@@ -102,14 +102,14 @@ const Header = () => {
             </LinkScroll>
           </ul>
           <div className="col-start-10 col-end-12 font-medium flex justify-end items-center">
-            <Link href="https://go.aral.swdrana.com/#/login" target="_blank">
+            <Link href="https://aral.swdrana.com/#/login" target="_blank">
               <span className="text-black-600 mx-2 sm:mx-4 capitalize tracking-wide hover:text-orange-500 transition-all">
-                  Sign In
+                Login
               </span>
             </Link>
-            <Link href="https://go.aral.swdrana.com/#/register" target="_blank">
+            <Link href="https://aral.swdrana.com/#/register" target="_blank">
               <span className="text-black-600 mx-2 sm:mx-4 capitalize tracking-wide hover:text-orange-500 transition-all">
-                <ButtonOutline>Sign Up</ButtonOutline>
+                <ButtonOutline>Register</ButtonOutline>
               </span>
             </Link>
           </div>
