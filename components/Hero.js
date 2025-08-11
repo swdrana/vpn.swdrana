@@ -10,17 +10,17 @@ const Hero = ({
   listUser = [
     {
       name: "Users",
-      number: "390",
+      number: "100",
       icon: "/assets/Icon/heroicons_sm-user.svg",
     },
     {
       name: "Locations",
-      number: "20",
+      number: "3",
       icon: "/assets/Icon/gridicons_location.svg",
     },
     {
       name: "Server",
-      number: "50",
+      number: "4",
       icon: "/assets/Icon/bx_bxs-server.svg",
     },
   ],
