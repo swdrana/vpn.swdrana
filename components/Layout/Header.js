@@ -103,14 +103,14 @@ const Header = () => {
             </LinkScroll>
           </ul>
           <div className="col-start-10 col-end-12 font-medium flex justify-end items-center">
-            <Link href="https://aral.swdrana.com/#/login" target="_blank">
+            {/* <Link href="https://aral.swdrana.com/#/login" target="_blank">
               <span className="text-black-600 mx-2 sm:mx-4 capitalize tracking-wide hover:text-orange-500 transition-all">
                 Old Panel
               </span>
-            </Link>
+            </Link> */}
             <Link href="https://panel.swdrana.com" target="_blank">
               <span className="text-black-600 mx-2 sm:mx-4 capitalize tracking-wide hover:text-orange-500 transition-all">
-                <ButtonOutline>New Panel</ButtonOutline>
+                <ButtonOutline>Login</ButtonOutline>
               </span>
             </Link>
           </div>
